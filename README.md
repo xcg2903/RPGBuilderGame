@@ -2,7 +2,7 @@
 
 A project being developed by:
 - Xander C. Goodwin
-- David (idk your last name pls add it)
+- David P. Smith
 - Jorge A. Velasquez Belmonte
 
 Bulletin:
