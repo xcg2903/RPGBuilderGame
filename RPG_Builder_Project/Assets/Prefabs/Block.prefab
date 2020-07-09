@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7433742061498419826}
   - component: {fileID: 1143185788398141889}
   - component: {fileID: 5014275118707685309}
+  - component: {fileID: -1578410365102102571}
   m_Layer: 10
   m_Name: Block
   m_TagString: Untagged
@@ -93,3 +94,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.00001, y: 1.00001, z: 1.00001}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1578410365102102571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6143796037648417903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e20b13530707d47abc8da9030f0d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentblock: 0
+  grassMat: {fileID: 2100000, guid: af318d9fa2e81c14091affd0af03cc73, type: 2}
+  grassMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  sandMat: {fileID: 2100000, guid: 933ad09ee61b999409716c1e7a9d909b, type: 2}
+  sandMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}

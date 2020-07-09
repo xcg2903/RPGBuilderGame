@@ -7,6 +7,7 @@ public class BlockPlacer : MonoBehaviour
     // Start is called before the first frame update
     //int[,,] blockmatrix;
     [SerializeField]private Camera playerCam;
+    [SerializeField] Vector3 point;
     [SerializeField] private Vector3 buildPos;
 
     [SerializeField] private LayerMask buildSurface;
@@ -30,7 +31,7 @@ public class BlockPlacer : MonoBehaviour
         if (Physics.Raycast(playerCam.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)), out buildPosHit, buildSurface))
         {
             print("hit");
-            Vector3 point = buildPosHit.point;
+            point = buildPosHit.point;
             buildPos = new Vector3(Mathf.Round(point.x), Mathf.Round(point.y), Mathf.Round(point.z));
             canPlace = true;
         }
